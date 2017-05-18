@@ -1,15 +1,16 @@
+// Pongo comentario de esta Clase
 package com.practicas.ede;
 
-// ¿Qué puede hacer esta Clase?
+// Â¿QuÃ© puede hacer esta Clase?
 public class BinString {
 	public BinString(){}
 
-	// ¿Qué hace este método?
+	// Â¿QuÃ© hace este mÃ©todo?
 	public String convertir(String s){
 		return aBinario(sumar(s));
 	}
 	
-	// ¿Qué hace este método?
+	// Â¿QuÃ© hace este mÃ©todo?
 	public int sumar(String s){
 		String s1 = s.substring(0);
 		int sum = 0;
@@ -22,7 +23,7 @@ public class BinString {
 		return sum;
 	}
 	
-	// ¿Qué hace este método?
+	// Â¿QuÃ© hace este mÃ©todo?
 	public String aBinario(int n){
 	    String s = "";
 	    
